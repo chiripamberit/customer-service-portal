@@ -7,6 +7,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "e_req_partner")
+
 public class RequestPartner {
     @Id
     private Long id;

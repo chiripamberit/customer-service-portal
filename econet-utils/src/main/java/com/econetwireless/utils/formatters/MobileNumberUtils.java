@@ -22,7 +22,7 @@ public class MobileNumberUtils {
         if (newMobileNumber.length() > 9) {
             newMobileNumber = trimMobile(newMobileNumber);
         }
-        
+
         try {
             if (isNumeric(newMobileNumber)) {
                 if (newMobileNumber.startsWith("77") || newMobileNumber.startsWith("78")) {
