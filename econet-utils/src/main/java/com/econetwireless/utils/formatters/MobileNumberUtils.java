@@ -36,6 +36,7 @@ public class MobileNumberUtils {
             LOGGER.error("Error on formatting mobile : ", ex);
             throw new InvalidMobileNumberException(ResponseCode.INVALID_REQUEST, invalidMobileNumberMessage);
         }
+        
     }
     private static String trimMobile(String mobileNumber) {
         if(canTrimMobile(mobileNumber)) {
