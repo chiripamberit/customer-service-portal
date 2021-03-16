@@ -22,6 +22,7 @@ public class MobileNumberUtils {
         if (newMobileNumber.length() > 9) {
             newMobileNumber = trimMobile(newMobileNumber);
         }
+        
         try {
             if (isNumeric(newMobileNumber)) {
                 if (newMobileNumber.startsWith("77") || newMobileNumber.startsWith("78")) {
@@ -36,7 +37,7 @@ public class MobileNumberUtils {
             LOGGER.error("Error on formatting mobile : ", ex);
             throw new InvalidMobileNumberException(ResponseCode.INVALID_REQUEST, invalidMobileNumberMessage);
         }
-        
+
     }
     private static String trimMobile(String mobileNumber) {
         if(canTrimMobile(mobileNumber)) {
