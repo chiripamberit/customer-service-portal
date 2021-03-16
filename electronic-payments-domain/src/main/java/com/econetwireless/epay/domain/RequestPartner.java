@@ -9,6 +9,7 @@ import javax.persistence.*;
 @Table(name = "e_req_partner")
 
 
+
 public class RequestPartner {
     @Id
     private Long id;
