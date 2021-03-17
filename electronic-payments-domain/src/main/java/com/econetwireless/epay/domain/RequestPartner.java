@@ -21,6 +21,7 @@ public class RequestPartner {
     @Column(length = 125)
     private String description;
 
+
     public Long getId() {
         return id;
     }
