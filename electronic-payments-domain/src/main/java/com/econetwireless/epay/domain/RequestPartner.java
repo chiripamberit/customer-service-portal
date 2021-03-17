@@ -16,6 +16,7 @@ public class RequestPartner {
     @Basic(fetch = FetchType.LAZY)
     @Column(length = 30, unique = true)
     private String code;
+    
     @Column(length = 50)
     private String name;
     @Column(length = 125)
