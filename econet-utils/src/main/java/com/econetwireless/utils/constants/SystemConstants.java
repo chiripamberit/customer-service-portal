@@ -5,6 +5,9 @@ package com.econetwireless.utils.constants;
  */
 public class SystemConstants {
 
+
+    
+
     public static final String STATUS_NEW = "New";
     public static final String STATUS_SUCCESSFUL = "Successful";
     public static final String STATUS_FAILED = "Failed";
